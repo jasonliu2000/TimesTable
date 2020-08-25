@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		22187C72249E8DC600D8C03B /* Challenge 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Challenge 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22187C72249E8DC600D8C03B /* TimesTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimesTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22187C75249E8DC700D8C03B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22187C77249E8DC700D8C03B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		22187C79249E8DC700D8C03B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		22187C69249E8DC600D8C03B = {
 			isa = PBXGroup;
 			children = (
-				22187C74249E8DC600D8C03B /* Challenge 2 */,
+				22187C74249E8DC600D8C03B /* TimesTable */,
 				22187C73249E8DC600D8C03B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		22187C73249E8DC600D8C03B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				22187C72249E8DC600D8C03B /* Challenge 2.app */,
+				22187C72249E8DC600D8C03B /* TimesTable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		22187C74249E8DC600D8C03B /* Challenge 2 */ = {
+		22187C74249E8DC600D8C03B /* TimesTable */ = {
 			isa = PBXGroup;
 			children = (
 				22187C75249E8DC700D8C03B /* AppDelegate.swift */,
@@ -67,7 +67,7 @@
 				22187C83249E8DCF00D8C03B /* Info.plist */,
 				22187C7D249E8DCF00D8C03B /* Preview Content */,
 			);
-			path = "Challenge 2";
+			path = TimesTable;
 			sourceTree = "<group>";
 		};
 		22187C7D249E8DCF00D8C03B /* Preview Content */ = {
@@ -81,9 +81,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		22187C71249E8DC600D8C03B /* Challenge 2 */ = {
+		22187C71249E8DC600D8C03B /* TimesTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 22187C86249E8DCF00D8C03B /* Build configuration list for PBXNativeTarget "Challenge 2" */;
+			buildConfigurationList = 22187C86249E8DCF00D8C03B /* Build configuration list for PBXNativeTarget "TimesTable" */;
 			buildPhases = (
 				22187C6E249E8DC600D8C03B /* Sources */,
 				22187C6F249E8DC600D8C03B /* Frameworks */,
@@ -93,9 +93,9 @@
 			);
 			dependencies = (
 			);
-			name = "Challenge 2";
+			name = TimesTable;
 			productName = "Challenge 2";
-			productReference = 22187C72249E8DC600D8C03B /* Challenge 2.app */;
+			productReference = 22187C72249E8DC600D8C03B /* TimesTable.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 22187C6D249E8DC600D8C03B /* Build configuration list for PBXProject "Challenge 2" */;
+			buildConfigurationList = 22187C6D249E8DC600D8C03B /* Build configuration list for PBXProject "TimesTable" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				22187C71249E8DC600D8C03B /* Challenge 2 */,
+				22187C71249E8DC600D8C03B /* TimesTable */,
 			);
 		};
 /* End PBXProject section */
@@ -289,16 +289,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Challenge 2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TimesTable/Preview Content\"";
 				DEVELOPMENT_TEAM = S8HTJR33A3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Challenge 2/Info.plist";
+				INFOPLIST_FILE = TimesTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Challenge-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TimesTable;
+				PRODUCT_NAME = TimesTable;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -309,16 +309,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"Challenge 2/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TimesTable/Preview Content\"";
 				DEVELOPMENT_TEAM = S8HTJR33A3;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = "Challenge 2/Info.plist";
+				INFOPLIST_FILE = TimesTable/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Challenge-2";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.TimesTable;
+				PRODUCT_NAME = TimesTable;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -327,7 +327,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		22187C6D249E8DC600D8C03B /* Build configuration list for PBXProject "Challenge 2" */ = {
+		22187C6D249E8DC600D8C03B /* Build configuration list for PBXProject "TimesTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22187C84249E8DCF00D8C03B /* Debug */,
@@ -336,7 +336,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		22187C86249E8DCF00D8C03B /* Build configuration list for PBXNativeTarget "Challenge 2" */ = {
+		22187C86249E8DCF00D8C03B /* Build configuration list for PBXNativeTarget "TimesTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				22187C87249E8DCF00D8C03B /* Debug */,

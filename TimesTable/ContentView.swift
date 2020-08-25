@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  Challenge 2
+//  TimesTable
 //
 //  Created by Jason Liu on 6/20/20.
 //  Copyright © 2020 Jason Liu. All rights reserved.
@@ -51,7 +51,7 @@ struct ContentView: View {
                     Alert(title: Text("The number of questions chosen is too large!"), message: Text("Please rechoose number of questions or increase multiplication table size."), dismissButton: .default(Text("Ok")))
                 }
             }
-            .navigationBarTitle("Times Table")
+            .navigationBarTitle("TimesTable")
         }
     }
     
@@ -71,7 +71,7 @@ struct ContentView: View {
             showGameView = true
         } else {
             // changing the number of games to be played from String to Int
-            let x = (Int(numGames[numberofQuestions]) ?? 1) - 1
+            let x = Int(numGames[numberofQuestions]) ?? 1
             
             if x > possibleQuestions.count {
                 alert = true

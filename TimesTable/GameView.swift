@@ -1,6 +1,6 @@
 //
 //  GameView.swift
-//  Challenge 2
+//  TimesTable
 //
 //  Created by Jason Liu on 6/27/20.
 //  Copyright © 2020 Jason Liu. All rights reserved.
